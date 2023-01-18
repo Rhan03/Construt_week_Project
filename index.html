@@ -4,23 +4,248 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>It's My Apple</title>
+    <title>Nafiee</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: white;
+        }
+        *{
+            font-family: sans-serif;
+        }
+        #body{
+            margin: 0;
+            padding: 0;
+            background: #000;
+        }
+        #body > nav{
+            display: flex;
+            background: rgb(0, 0, 0);
+            height: 50px;
+            align-items: center;
+            width: 70%;
+            margin: auto;
+            justify-content: space-around;
+            
+        }
+        nav > a{
+            color: rgb(174, 170, 170);
+            text-decoration: none;
+            font-size: 12px;
+            /* border: 3px solid red; */
+            width: 10%;
+
+        }
+        nav #img{
+            width: 30%;
+            /* border: 3px solid red; */
+        }
+        .heading{
+
+            color: white;
+           
+            width: 50%;
+            margin: auto;
+            margin-top: 100px;
+            font-size: 50px;
+        }
+       .heading > span {
+           
+           justify-content: center;
+            margin-left: 100px;
+          
+            width: 100%;
+        }
+        #watchTheAnnounceMent{
+            color: white;
+            border: 3px solid white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            width: 19%;
+            margin: auto;
+            margin-top: 35px;
+            
+            border-image: linear-gradient(to right, rgb(245, 54, 166), rgb(59, 62, 223)) 1;
+          
+            
+        }
+        #watchTheAnnounceMent > h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+           
+        }
+        #macBook-Pro{
+            color: rgb(233, 227, 227);
+           
+            width: 50%;
+            margin: auto;
+           
+            margin-top: 100px;
+            line-height: 50px;
+        }
+        #macBook-Pro > h2{
+           
+            font-size: 53px;
+            width: 45%;
+            margin: auto;
+           
+        }
+        #macBook-Pro > h3{
+            
+            font-size: 25px;
+            width: 65%;
+            margin: auto;
+            
+        }
+        #macBook-Pro > p{
+            
+            font-size: 23px;
+            width: 41%;
+            margin: auto;
+            color: rgb(115, 116, 116);
+        }
+        #macBook-Pro > div{
+            display: flex;
+            justify-content: space-between;
+           
+            font-size: 20px;
+            width: 40%;
+            margin: auto;
+            
+        }
+        #macBook-Pro > div > a{
+         color: rgb(35, 134, 240);
+         text-decoration: none;
+        }
+        #body .mac{
+            display: block;
+            margin: auto;
+        }
+        #macBook-mini{
+            color: rgb(233, 227, 227);
+           background: #000;
+            width: 100%;
+            margin: auto;
+           padding-top: 80px;
+            margin-top: 10px;
+            line-height: 50px;
+        }
+        #macBook-mini > div{      
+            justify-content: space-between;
+           
+            font-size: 20px;
+            width: 80%;
+            margin: auto;
+            
+        }
+        #macBook-mini  h2{
+            font-size: 53px;
+            width: 25%;
+             
+            margin: auto;
+           
+        }
+        #macBook-mini h3{
+            
+            font-size: 25px;
+            width: 40%;
+            margin: auto;
+            
+
+            
+        }
+        #macBook-mini p{
+            
+            font-size: 23px;
+            width: 25%;
+            margin: auto;
+            
+
+            color: rgb(115, 116, 116);
+        }
+       
+        #macBook-mini > div > div{
+            display: flex;
+            justify-content: space-between;
+         
+        
+         width: 25%;
+         text-decoration: none;
+         margin: auto;
+        }
+        #macBook-mini > div > div a{
+            color: rgb(35, 134, 240);
+        }
+        #macBook-mini img{
+           
+            display: block;
+            margin: auto;
+            margin-top: 0px;
+        }
+        #forGrid{
+            width: 99%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 8px 10px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        #forGrid img{
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+    <div id="body">
+    <nav>
+        <a href="./index.html"><img id="img" src="/forimg/OriginApple.png" alt="Error"></a>
+        <a href="./mac.html">Mac</a>
+        <a href="./ipad.html">iPad</a>
+        <a href="./iphone.html">iPhone</a>
+        <a href="./watches.html">Watches</a>
+        <a href="./airpods.html">Airpods</a>
+        <a href="./tvandhome.html">Tv & Home</a>
+        <a href="./onlyonaple.html">Only on Apple</a>
+        <a href="./accessories.html">Accesories</a>
+        <a href="./support.html">Support</a>
+        <a href="./search.html">Search</a>
+        <a href="./addtocart.html">Add to cart</a>
+        <a href="./login.html">log<span>in</span></a>
+    </nav>
     <div>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <h2 class="heading"><span>Introducing the new</span><br> MacBook Pro and Mac mini.</h2>
     </div>
+    <div id="watchTheAnnounceMent">
+        <h3>Watch the announcement ⚙️</h3>
+    </div>
+    <div id="macBook-Pro">
+        <h2>MacBook Pro</h2>
+        <h3>Supercharged by M2 Pro and M2 Max.</h3>
+        <p>Available Starting from 24 Jan</p>
+        <div><a href="">Learn more ></a>
+        <a href="">Order Now ></a></div>
+    </div>
+    <img class="mac" src="./forimg/m2ss.png" alt="Error">
+</div>
+<div>
+    <div id="macBook-mini">
+        <div>
+        <h2>Mac mini</h2>
+        <h3>Supercharged by M2 Pro and M2 Pro.</h3>
+        <p>Available starting 1.24</p>
+        <div><a href="">Learn more ></a>
+        <a href="">Order Now ></a></div></div>
+        <img src="./forimg/mini m2 ss.png" alt="Error">
+    </div>
+</div>
+<div id="forGrid">
+    <a href=""><img src="./forimg/creativity.png" alt="Error"></a>
+    <a href=""><img src="./forimg/watch series.png" alt="Error"></a>
+    <a href=""><img src="./forimg/14pro small.png" alt="Error"></a>
+    <a href=""><img src="./forimg/14.png" alt="Error"></a>
+    <a href=""><img src="./forimg/agiftiphone.png" alt="Error"></a>
+    <a href=""><img src="./forimg/getdailydiscount.png" alt="Error"></a>
+</div>
 </body>
 </html>
