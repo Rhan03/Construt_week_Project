@@ -212,6 +212,56 @@
         #forGrid img{
             width: 100%;
         }
+        #main{
+            background: rgb(240, 240, 240);
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        #footer{
+            /* border: 3px solid
+            red; */
+            margin: auto;
+            width: 70%;
+        }
+        #fotter{
+            display: flex;
+            /* border: 2px solid black; */
+            justify-content: space-between;
+            margin-bottom: 30px;
+            height: 400px;
+        }
+        #fotter > footer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            line-height: 20px;
+        }
+        #fotter > footer > a{
+            text-decoration: none;
+            font-size: 12px;
+            color: rgb(86, 85, 85);
+            
+        }
+        #fotter > footer > a:hover{
+            text-decoration: underline;
+        }
+        #footer p{
+            font-size: 12px;
+            color: rgb(128, 125, 125);
+        }
+        #fotter h5{
+            /* border: 3px solid red; */
+            color: rgb(73, 73, 73);
+            font-size: 12px;
+        }
+        #footer >p span{
+            /* border: 3px solid red; */
+            color: rgb(55, 138, 233);
+        }
+        #images img{
+            width: 90%;
+            display: block;
+            margin: auto;
+        }
     </style>
 </head>
 <body>
@@ -265,8 +315,112 @@
     <a href=""><img src="./forimg/agiftiphone.png" alt="Error"></a>
     <a href=""><img src="./forimg/getdailydiscount.png" alt="Error"></a>
 </div>
+<div id="images">
+    <!-- append all images here. -->
+</div>
+<div id="main">
+<div id="footer">
+    <p>To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with latest version of iOS or iPadOS. Update to the latest version by gong to Setting > General > Software Update. Tap Download and Install.</p>
+    <p>Available for qualifying applicants in the United States.</p>
+    <p>Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.</p>
+    <p>Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.</p>
+<hr>
+<div id="fotter">
+<footer>
+    <h5>Shop and Learn</h5>
+    <a href="">Store</a>
+    <a href="">Mac</a>
+    <a href="">iPhone</a>
+    <a href="">iPad</a>
+    <a href="">Watche</a>
+    <a href="">Airpods</a>
+    <a href="">TV & Home</a>
+    <a href="">Air Tags</a>
+    <a href="">accessories</a>
+    <a href="">Gift Card</a>
+</footer>
+<footer>
+    <h5>Shop and Learn</h5>
+    <a href="">Apple Music</a>
+    <a href="">Apple TV+</a>
+    <a href="">Apple Fitness</a>
+    <a href="">Apple News</a>
+    <a href="">Apple Arcade</a>
+    <a href="">iCloud</a>
+    <a href="">Apple One</a>
+    <a href="">Apple Cards</a>
+    <a href="">Apple Books</a>
+    <a href="">Apple Podcasts</a>
+    <a href="">Apple Store</a>
+    
+
+</footer>
+<footer>
+    <h5>Service</h5>
+    <a href="">Find a Store</a>
+    <a href="">Genius Bar</a>
+    <a href="">Today at Apple</a>
+    <a href=""> Apple Camp</a>
+    <a href="">Apple Store App</a>
+    <a href="">Refurbished and Clearance</a>
+    <a href="">Financing</a>
+    <a href="">Apple Trade In</a>
+    <a href="">Order Status</a>
+    <a href="">Shopping Help</a>
+</footer>
+<footer>
+    <h5>Apple Store</h5>
+    <a href="">Store</a>
+    <a href="">Mac</a>
+    <a href="">iPhone</a>
+    <a href="">iPad</a>
+    <a href="">Watche</a>
+    <a href="">Airpods</a>
+    <a href="">Tv & Home</a>
+    <a href="">Air Tags</a>
+    <a href="">accessories</a>
+    <a href="">Gift Card</a>
+</footer>
+<footer>
+    <h5>For Bussiness</h5>
+    <a href="">Store</a>
+    <a href="">Mac</a>
+    <a href="">iPhone</a>
+    <a href="">iPad</a>
+    <a href="">Watche</a>
+    <a href="">Airpods</a>
+    <a href="">Tv & Home</a>
+    <a href="">Air Tags</a>
+    <a href="">accessories</a>
+    <a href="">Gift Card</a>
+</footer>
+<footer>
+    <h5>Apple Values</h5>
+    <a href="">For Business</a>
+    <a href="">Shop for Business</a>
+    <a href="">For Education</a>
+    <a href="">Apple and Education</a>
+    <a href="">Shop for K-12</a>
+    <a href="">Shop for College</a>
+    <a href="">For Healthcare</a>
+    <a href="">Apple in Healthcare</a>
+    <a href="">Health on Apple Watch</a>
+    <a href="">Health Records on iPhone</a>
+</footer>
+</div>
+<p>More ways to shop: <span>Find an Apple Store</span> or <span>other retailers</span>near you .Or call 1-800-MY-APPLE.</p>
+<hr>
+<p>Copyright 2023 Apple Inc. All rights reserved. Privacy Policy | Terms of Use | Sales and refunds | Legal | Site Map</p>
+</div>
+</div>
 </body>
 <script>
-    
+    let arrImg = ["https://hdqwalls.com/wallpapers/new-thor-4k-avengers-endgame-jo.jpg","https://wallpapercave.com/wp/wp4657881.jpg","https://hdqwalls.com/wallpapers/avengers-end-game-final-battle-scene-op.jpg"]
+    let apend = document.getElementById("images");
+    let img = document.createElement("img");
+    let index = 2;
+    img.setAttribute("src",arrImg[index]);
+    setInterval
+    apend.append(img)
 </script>
 </html>

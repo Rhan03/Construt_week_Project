@@ -9,7 +9,7 @@
            body{
             margin: 0;
             padding: 0;
-            background: white;
+            background: rgb(234, 230, 230);
         }
         *{
             font-family: sans-serif;
@@ -49,6 +49,139 @@
             margin-left: 10px;
             margin-right: 15px;
         }
+       
+        
+        #main > div:nth-child(1){
+            /* border: 3px solid red; */
+            background: #000;
+            color:rgb(239, 238, 236);
+            height: 350px;
+            padding-top: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #main > div:nth-child(1) h1{
+            /* border: 3px white solid; */
+            width: 33%;
+            margin: auto;
+            font-size: 50px;
+        }
+        #main > div:nth-child(1) h2{
+            /* border: 3px white solid; */
+            width: 43%;
+            margin: auto;
+            font-size: 50px;
+        }      
+        #main > div:nth-child(1) a{
+            border: 3px white solid;
+            display: block;
+            margin: auto;
+            height: 25px;
+            border-radius: 20px;
+            font-size: 20px;
+            width: 300px;
+            margin-top: 50px;
+            background: white;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            padding-top: 5px;
+        }
+        #main > div:nth-child(2){
+            /* border: 3px solid red; */
+            background: #000;
+            color:rgb(239, 238, 236);
+        }
+        .product{
+            margin-top:10px;
+            background: #000;
+            padding-top: 60px;
+        }
+        .product p{
+            width: 3%;
+            font-size: 16px;
+            color:red;
+            margin: auto;
+        }
+        .product h2{
+            font-size: 50px;
+            width: 25%;
+            margin: auto;
+            color: white;
+        }
+        .product h3{
+            font-size: 28px;
+            color: white;
+            width: 30%;
+            margin: auto;
+        }
+        .product h4{
+            /* border: 3px solid red; */
+            width: 8%;
+            margin: auto;
+            color: rgb(234, 227, 227);
+            margin-top: 30px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .product div{
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+        .product div button{
+            border-radius: 20px;
+            background: rgb(31, 88, 221);
+            color: rgb(220, 218, 218);
+            font-size: 20px;
+            width: 150px;
+            height: 40px;
+        }
+        .product div a{
+            text-decoration: none;
+            color: rgb(38, 105, 212);
+            font-size: 20px;
+            align-items: center;
+            padding-top: 5px;
+        }
+        .product h5{
+            width: 15%;
+            color: rgb(199, 197, 197);
+            margin: auto;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .product img{
+            display: block;
+            margin: auto;
+            margin-top: 100px;
+            /* border: 3px solid red; */
+        }
+        .product .mini{
+            margin: auto;
+            width: 15%;
+        }
+        #main > div:nth-child(3) h3{
+            /* border: 3px solid w2hite; */
+            width: 25%;
+            
+            
+            color:rgb(239, 238, 236); 
+            
+        }
+        #main > div:nth-child(4){
+            /* border: 3px solid red; */
+            background: white;
+            color:rgb(239, 238, 236);
+            margin: auto;
+            margin-top: 30px;
+            width: 90%;
+        }
+        #main > div:nth-child(4) img{
+            
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -68,6 +201,38 @@
             <a href="./addtocart.html">Add to cart</a>
             <a href="./login.html">log<span>in</span></a>
         </nav>
+    </div>
+    <div id="main">
+        <div>
+            <h1>Introducing the new </h1>
+            <h2>Mac Book Pro & Mac Mini.</h2>
+            <a href=""> Watch the Announcement</a>
+        </div>
+        <div class="product">
+            <p>New</p>
+            <h2>Mac Book Pro</h2>
+            <h3>Mover.Maker.Boundary breaker</h3>
+            <h4>From$1999</h4>
+            <div>
+            <button>Order Now</button>
+            <a href="">Learn More ></a>
+        </div>
+            <h5>Available Starting 1.24</h5>
+            <img src="./forimg/m2ss.png" alt="Error">
+        </div>
+        <div class="product">
+            <p>New</p>
+            <h2 class="mini">Mac mini</h2>
+            <h3>More muscle.More hustle</h3>
+            <h4>From $599</h4>
+            <div>
+            <button>Order Now</button>
+            <a href="">Learn More ></a>
+        </div>
+            <h5>Available Starting 1.24</h5>
+            <img src="./forimg/mini m2 ss.png" alt="Error">
+        </div>
+        <div><img src="every wish.png" alt="Error"></div>
     </div>
 </body>
 </html>
