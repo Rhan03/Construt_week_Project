@@ -6,14 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It's Your Babe Rehan</title>
     <style>
+        body{
+            background: #000;
+        }
         form{
             /* border: 3px solid red; */
             width: 60%;
             margin: auto;
             margin-top: 50px;
+            /* height: 35px; */
         }
         form input{
+            padding-bottom: 10px;
+            border: none;
+            padding-top: 10px;
             width: 700px;
+            border-radius: 30px;
+            padding-left: 30px;
+            font-size: 17px;
+        }
+        form button{
+            height: 40px;
+            width: 100px;
+            border-radius: 20px;
         }
         #img{
             display: block;
@@ -24,11 +39,36 @@
         #img img{
             width: 100%;
         }
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        nav{
+            /* border: 3px solid red; */
+            background: rgb(15, 15, 15);
+            display: flex;
+            width: 80%;
+            align-items: center;
+            margin: auto;
+            justify-content: space-between;
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(216, 214, 214);
+            font-size: 12px;
+        }
+        nav > a:hover{
+            color: rgb(255, 255, 255);
+        }
+        #img1{
+            width: 30px;
+            /* border: 3px solid red; */
+
+        }
     </style>
 </head>
 <body>
     <nav>
-        <a href="./index.html"><img id="img" src="./forimg/OriginApple.png" alt="Error"></a>
+        <a href="./index.html"><img id="img1" src="./forimg/OriginApple.png" alt="Error"></a>
         <a href="./mac.html">Mac</a>
         <a href="./ipad.html">iPad</a>
         <a href="./iphone.html">iPhone</a>
@@ -44,7 +84,7 @@
     </nav>
     <div>
         <form>
-        <input type="text" placeholder=" Search">
+        <input type="text" placeholder="dekh kia rha search kr">
         <button>Search</button>
         </form>
     </div>
